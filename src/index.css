@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../src/assets/font/Inter-Variable.ttf');
+}
+
+:root {
+    --color-yellow: #F0C900;
+    --color-light-gray: #7D7D7D;
+    --color-glass: rgba(255, 255, 255, 0.53);
+    --font-primary: 'Inter';
+}
+
+body {
+    font-family: var(--font-primary);
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}

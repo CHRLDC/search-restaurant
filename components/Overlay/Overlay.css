@@ -1,0 +1,15 @@
+.overlay {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    background-color: white;
+    box-shadow: 0px -4px 4px 0px #00000040;
+    padding: 16px;
+}
+
+.overlay h2 {
+    font-size: 16px;
+}
+
+.overlay p {
+    font-size: 14px;
+}

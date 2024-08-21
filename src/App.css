@@ -1,0 +1,54 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.none {
+    display: none;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.gap8 {
+    gap: 8px;
+}
+
+.top-bar {
+    margin-left: 52px;
+    width: calc(100% - 52px);
+    position: fixed;
+    top: 0;
+    padding: 16px;
+    z-index: 1000;
+}
+
+.tap-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container-map {
+    width: 100%;
+    height: 100vh;
+}
